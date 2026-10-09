@@ -21,6 +21,11 @@ app.get('/', (req: Request, res: Response): void => {
   res.send('Hello World!');
 });
 
+// Sample page route
+app.get('/sample', (req: Request, res: Response): void => {
+  res.render('sample.ejs');
+});
+
 // ------------------------------
 // Start server
 // ------------------------------
