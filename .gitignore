@@ -1,0 +1,15 @@
+# npm packages
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Vercel local settings
+.vercel/
+
+# npm error logs
+npm-debug.log*
